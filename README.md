@@ -40,6 +40,12 @@ Kexren-IOS is an **educational research tool** designed for security researchers
 | iOS 26.0 – 26.0.1 | Compatible |
 | iOS 26.1+ | Not compatible |
 
+## Credits
+* opa334 for the kernel exploit poc, ChOma and XPF
+* AppInstaller iOS for help with offsets
+* AlfieCG for libgrabkernel2
+* rooootdev for Lara Surce 
+
 **Hardware limitations:** Not compatible with M5 or A19 (Pro) devices due to hardware security architecture.
 
 ---
@@ -47,6 +53,6 @@ Kexren-IOS is an **educational research tool** designed for security researchers
 ## 🔧 Building from Source
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Kexren-IOS.git
+git clone https://github.com/PR2034/Kexren-IOS.git
 cd Kexren-IOS
 # Open Xcode project and build for your target device
