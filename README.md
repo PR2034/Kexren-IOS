@@ -40,13 +40,39 @@ Kexren-IOS is an **educational research tool** designed for security researchers
 | iOS 26.0 – 26.0.1 | Compatible |
 | iOS 26.1+ | Not compatible |
 
-## Credits
-* opa334 for the kernel exploit poc, ChOma and XPF
-* AppInstaller iOS for help with offsets
-* AlfieCG for libgrabkernel2
-* rooootdev for Lara Surce 
+## 🙏 Credits
+
+| Contributor | Contribution |
+|-------------|--------------|
+| **Darklunaios** | Project author – Core research, PID grabbing, kernel-level game access implementation |
+| **rooootdev** | Owner of Lara – Base exploit integration framework |
+| **opa334** | Kernel exploit POC, ChOma, XPF framework |
+| **AlfieCG** | libgrabkernel2 memory introspection utility |
+| **AppInstaller iOS** | Offset analysis and methodology |
+
+**Contact:** [t.me/Darklunaios](https://t.me/Darklunaios)  
+**Lara Framework:** [github.com/rooootdev/lara](https://github.com/rooootdev/lara)
 
 **Hardware limitations:** Not compatible with M5 or A19 (Pro) devices due to hardware security architecture.
+
+---
+
+## ⚖️ Legal Compliance
+
+This project complies with:
+- GitHub Terms of Service – No malicious code, no DMCA violations.
+- DMCA 1201 – Research exemption for security testing.
+
+**By using this software, you agree to:**
+1. Use it only on devices you legally own.
+2. Never use it to violate any game's Terms of Service.
+3. Use it exclusively for educational and security research purposes.
+
+## 🚫 Disclaimer
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. 
+
+**Trademark Notice:** Apple, iOS, Activision, Call of Duty, Timi Studio are property of their respective owners. This project is not affiliated with or endorsed by any of these entities.
 
 ---
 
@@ -55,4 +81,5 @@ Kexren-IOS is an **educational research tool** designed for security researchers
 ```bash
 git clone https://github.com/PR2034/Kexren-IOS.git
 cd Kexren-IOS
-# Open Xcode project and build for your target device
+# Open Xcode project or Theos and build for your target device
+
