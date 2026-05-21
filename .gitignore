@@ -1,69 +1,52 @@
-# Prerequisites
-*.d
+# ============================================
+# Kexren-IOS specific rules
+# ============================================
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Kernel exploit artifacts
+*.kcache
+kernelcache*
+*.kdata
+*.raw
+*.bin
 
-# Precompiled Headers
-*.gch
-*.pch
+# Device specific data
+device_*
+*.plist.bak
+device_info.txt
+offsets_*.json
+offsets.json
+config.local.json
 
-# Linker files
-*.ilk
+# Xcode (iOS development)
+*.xcuserstate
+*.xcuserdatad/
+DerivedData/
+*.moved-aside
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+*.xccheckout
+*.xcworkspace/xcuserdata/
 
-# Debugger Files
-*.pdb
+# Compiled Kexren-IOS binary
+kexren
+kexren_debug
+kexren_*
+Kexren-IOS
+Kexren-IOS_debug
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-*.so.*
+# macOS system files
+.DS_Store
+Thumbs.db
+.AppleDouble
+.LSOverride
+._*
 
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# Build directories
-build/
-Build/
-build-*/
-
-# CMake generated files
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-Makefile
-install_manifest.txt
-compile_commands.json
-
-# Temporary files
-*.tmp
-*.log
-*.bak
+# IDE files
+.vscode/
+.idea/
 *.swp
-
-# vcpkg
-vcpkg_installed/
-
-# debug information files
-*.dwo
-
-# test output & cache
-Testing/
-.cache/
+*.swo
+*~
